@@ -59,20 +59,7 @@ export function Sidebar() {
         ))}
       </nav>
 
-      <div className="mt-auto p-4 bg-slate-100 dark:bg-slate-800/50 rounded-2xl">
-        <div className="flex items-center gap-3">
-          <img 
-            className="w-10 h-10 rounded-full object-cover" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkJ1YDLbUeBJCNpfvapJ_KicaHck9qYmY09Xl09InRZu4A-kS4JrHtqbPCd2JM3cDczEgCl23umcY8mRBUcYiixBMYH6v4IMG6w83BToE4FVMmiwDfq70Chc8M1nL0JdiAQjvXgwlVEP19gkZCKcjlBpaYfAm7T418tT7lK1SXBPcl8QB4WJSM3YoxEe8K7-OH3WbJI7FeO_hu47KZxipHibnPtMCre8AN59MLnwGjhVn2QwLF-Skd9e-sZlB5oaBpLgJXfhURstJm" 
-            alt="Profile"
-            referrerPolicy="no-referrer"
-          />
-          <div className="overflow-hidden">
-            <p className="text-xs font-bold truncate text-slate-900 dark:text-slate-100">Boutique Owner</p>
-            <p className="text-[10px] text-slate-400 truncate">Premium Plan</p>
-          </div>
-        </div>
-      </div>
+
     </aside>
   );
 }

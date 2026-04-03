@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { Search, Bell, UserCircle } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 export function Topbar() {
   return (
@@ -19,14 +19,7 @@ export function Topbar() {
           />
         </div>
       </div>
-      <div className="flex items-center gap-6">
-        <button className="text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
-          <Bell className="w-5 h-5" />
-        </button>
-        <button className="text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
-          <UserCircle className="w-5 h-5" />
-        </button>
-      </div>
+
     </header>
   );
 }
